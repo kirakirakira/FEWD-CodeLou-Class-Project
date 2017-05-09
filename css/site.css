@@ -26,6 +26,10 @@ a {
     text-decoration: none;
 }
 
+.wrap {
+    padding: 2rem;
+}
+
 .header {
   background-color: #333333;
   background-image: url('../img/hero-bg-pizza.jpg');
