@@ -108,7 +108,7 @@ input {
     font-size: 1rem;
 }
 
-button {
+input[type="submit"] {
     background-color: #871719;
     border-radius: 3px;
     color: #FFF;
@@ -117,4 +117,8 @@ button {
     text-transform: uppercase;
     font-weight: bold;
     height: 40px;
+}
+
+input[type="submit"]:hover {
+  background-color: #800080;
 }
