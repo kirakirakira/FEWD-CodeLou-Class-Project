@@ -122,3 +122,29 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #800080;
 }
+
+h4 {
+    font-size: 1.4rem;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin: 1em 0 .5em 0;
+}
+
+#foodMenu .menu {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.menu-head {
+  text-align: left;
+}
+
+.menu-price {
+    color: #871719;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: right;
+}
