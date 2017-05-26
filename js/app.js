@@ -1,5 +1,3 @@
-console.log("I loaded the file");
-
 var menu = {
   "Food": [
     {
@@ -212,12 +210,11 @@ var menuInfo = "";
 
 for (var i = 0; i < menu.Food.length; i++) {
   var subcat = menu.Food[i]["name"];
-  console.log(subcat);
   menuInfo += "<table class='menu'><thead><tr><th colspan='2'><h4 class='menu-head red'>" +
     subcat + "</h4></th></tr></thead><tbody>";
   for (var j = 0; j < menu.Food[i]["items"].length; j++) {
     var item = menu.Food[i]["items"][j]["name"];
-    var price = menu.Food[i]["items"][j]["price"];
+    var price = menu.Food[i]["items"][j]["price"].toFixed(2);
     menuInfo += "<tr><td>" + item + "</td><td class='menu-price text-right'>$" + price + "</td></tr>";
   }
   menuInfo += "</tbody></table>";

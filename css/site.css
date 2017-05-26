@@ -146,5 +146,12 @@ h4 {
     font-family: 'Roboto Slab', serif;
     text-transform: uppercase;
     font-weight: 700;
-    text-align: right;
+}
+
+.red {
+  color: #871719;
+}
+
+.text-right {
+  text-align: right;
 }
