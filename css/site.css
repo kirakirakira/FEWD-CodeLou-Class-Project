@@ -88,6 +88,13 @@ h2 span {
     font-size: 0.8rem;
 }
 
+#validation {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: red;
+  font-weight: bold;
+}
+
 label,
 input,
 button {
@@ -121,6 +128,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #800080;
+}
+
+input[type="submit"]:disabled {
+  background-color: gray;
 }
 
 h4 {
